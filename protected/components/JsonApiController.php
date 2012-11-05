@@ -15,7 +15,7 @@
 		public function actionShow($id)
 		{
 			$model=$this->loadModel($id);
-			$this->sendResponse(200,CJSON::encode($model->toJSON()));
+			$this->sendResponse(200,CJSON::encode($model));
 		}
 		
 		/**

@@ -40,3 +40,198 @@ Stack trace:
 #10 {main}
 REQUEST_URI=/yiiang/index.php?r=app/test
 ---
+2012/11/05 17:06:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/contacts
+---
+2012/11/05 17:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+---
+2012/11/05 17:06:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/contacts
+---
+2012/11/05 17:07:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/index')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/contacts/index
+---
+2012/11/05 18:41:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partials".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('partials')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('partials')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/partials/co...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/partials/contact/show.html
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:44:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partials".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('partials')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('partials')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/partials/co...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/partials/contact/show.html
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:44:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partials".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('partials')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('partials')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/partials/co...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/partials/contact/show.html
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:45:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partials".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('partials')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('partials')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/partials/co...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/partials/contact/show.html
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:45:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "contacts".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('contacts')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('contacts')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/contac...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:47:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "partials".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('partials')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('partials')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/partials/co...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/partials/contact/show.html
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:50:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/view')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:50:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/view')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:50:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/view')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:51:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:51:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 18:55:49 [error] [exception.CException] exception 'CException' with message 'Contact and its behaviors do not have a method or closure named "toJSON".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(226): CComponent->__call('toJSON', Array)
+#1 C:\wamp\www\yiiang\protected\components\JsonApiController.php(18): CActiveRecord->__call('toJSON', Array)
+#2 C:\wamp\www\yiiang\protected\components\JsonApiController.php(18): Contact->toJSON()
+#3 [internal function]: JsonApiController->actionShow('1')
+#4 C:\wamp\www\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(JsonApiController), Array)
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(JsonApiController), Object(ReflectionMethod), Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('show')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/show')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiiang/api/contacts/1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/05 20:42:22 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "registerCoreScipt".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yiiang\themes\yiiang\views\layouts\main.php(34): CComponent->__call('registerCoreSci...', Array)
+#1 C:\wamp\www\yiiang\themes\yiiang\views\layouts\main.php(34): CClientScript->registerCoreScipt('jquery')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\yiiang\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#13 C:\wamp\www\yiiang\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiang/
+---
