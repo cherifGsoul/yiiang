@@ -1,0 +1,42 @@
+2012/11/05 14:31:53 [error] [exception.CException] exception 'CException' with message 'Error Processing Request' in C:\wamp\www\yiiang\protected\components\JsonApiController.php:12
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(275): JsonApiController->init()
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/test')
+#2 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yiiang/index.php?r=app/test
+---
+2012/11/05 14:32:19 [error] [exception.CException] exception 'CException' with message 'Error Processing Request' in C:\wamp\www\yiiang\protected\components\JsonApiController.php:12
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(275): JsonApiController->init()
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/test')
+#2 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yiiang/index.php?r=app/test
+---
+2012/11/05 14:32:21 [error] [exception.CException] exception 'CException' with message 'Error Processing Request' in C:\wamp\www\yiiang\protected\components\JsonApiController.php:12
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(275): JsonApiController->init()
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/test')
+#2 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#3 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#4 {main}
+REQUEST_URI=/yiiang/index.php?r=app/test
+---
+2012/11/05 14:32:40 [error] [exception.CException] exception 'CException' with message 'AppController and its behaviors do not have a method or closure named "sendReponse".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\controllers\AppController.php(7): CComponent->__call('sendReponse', Array)
+#1 C:\wamp\www\yiiang\protected\controllers\AppController.php(7): AppController->sendReponse(200, '{"success":true...')
+#2 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): AppController->actionTest()
+#3 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/test')
+#8 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/yiiang/index.php?r=app/test
+---
