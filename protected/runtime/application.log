@@ -1313,3 +1313,9 @@ in C:\wamp\www\yiiang\index.php (13)
 2012/11/09 22:35:59 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
 in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
 in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:52:25 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:58:20 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
