@@ -6,11 +6,49 @@
 		 */
 		public $modelName;
 		
-	/*	public function init(){
+		public function init(){
 			parent::init();
 			if(empty($this->modelName))
 				throw new CException(Yii::t('api',"Error Processing Request"));				
-		}*/
+		}
+
+		/**
+	 * @return array action filters
+	 */
+	public function filters()
+	{
+		return array(
+			//'accessControl', // perform access control for CRUD operations
+			
+			/*array(
+			        'CHttpCacheFilter + show',
+			 	    'cacheControl'=>'',
+			 	    'etagSeed'=>'02aAMdodsd'
+		 	    )*/
+			);
+	}
+
+	/**
+	 * Specifies the access control rules.
+	 * This method is used by the 'accessControl' filter.
+	 * @return array access control rules
+	 */
+	public function accessRules()
+	{
+		return array(
+			
+			array('allow', // allow authenticated user to perform 'create' and 'update' actions
+				'users'=>array('@'),
+			),
+			array('allow', // allow admin user to perform 'admin' and 'delete' actions
+				'actions'=>array('admin','delete'),
+				'users'=>array('admin'),
+			),
+			array('deny',  // deny all users
+				'users'=>array('*'),
+			),
+		);
+	}
 		
 		public function actionShow($id)
 		{
@@ -23,16 +61,28 @@
 	 	*/
 		public function actionIndex()
 		{
-			$models=CActiveRecord::model($this->modelName)->findAll();
-			$this->sendResponse(200,CJSON::encode($models));
+			$dataProvider=CActiveRecord::Model($this->modelName)->search();
+			//var_dump($dataProvider->pagination);exit;
+			$this->sendResponse(200,CJSON::encode(array(
+													'offset'=>$dataProvider->pagination->offset,
+													'pageVar'=>$dataProvider->pagination->pageVar,
+													'pageCount'=>$dataProvider->pagination->pageCount,
+													'itemCount'=>$dataProvider->pagination->itemCount,
+													'currentPage'=>$dataProvider->pagination->currentPage,
+													'pageSize'=>$dataProvider->pagination->pageSize,
+													'data'=>$dataProvider->data,
+													'params'=>$dataProvider->pagination->params,
+								)));
 		}
 		
 		public function actionCreate(){
-			if(empty($_POST))
-				$this->sendResponse(400);
+			$data=$this->getInputAsJson();
 			
+			if(empty($data))
+				$this->sendResponse(400);
+		
 			$model=new $this->modelName;
-			$model->setAttributes($_POST);
+			$model->setAttributes($data);
 			if($model->save())
 				$this->sendResponse(200);
 			else
@@ -47,7 +97,8 @@
 		public function actionUpdate($id)
 		{
 			if(Yii::app()->request->isPutRequest){	
-				parse_str(file_get_contents('php://input'),$data);
+				$data=$this->getInputAsJson();
+				//var_dump($data);
 				$model=$this->loadModel($id);
 				$model->setAttributes($data);
 				if (!$model->save())
@@ -157,6 +208,10 @@
 	
 		    );
 		    return (isset($codes[$status])) ? $codes[$status] : '';
+		}
+
+		protected function getInputAsJson(){
+			return CJSON::decode(file_get_contents('php://input'));
 		}
 
 		

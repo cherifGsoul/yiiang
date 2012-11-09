@@ -1,0 +1,12 @@
+body {
+	padding-top: 40px;
+}
+
+#loading{
+	background:#FFFF00;
+}
+
+#loading p{
+	text-align: center;
+	padding:5px;
+}

@@ -235,3 +235,1081 @@ Stack trace:
 #22 {main}
 REQUEST_URI=/yiiang/
 ---
+2012/11/06 23:51:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:51:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:51:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:51:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:53:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:53:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:55:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:55:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:55:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:55:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/06 23:55:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "lib".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('lib')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('lib')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('app/lib/angular...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/app/lib/angular/json3.min.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/07 07:37:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "appes5-shim.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('appes5-shim.js')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/appes5-shim.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/07 07:37:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "appes5-shim.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('appes5-shim.js')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/appes5-shim.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/07 07:37:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "appes5-shim.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('appes5-shim.js')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/appes5-shim.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/07 07:37:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "appes5-shim.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('appes5-shim.js')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/appes5-shim.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 11:15:17 [error] [php] include(CActiveRecored.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\components\JsonApiController.php(26): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): JsonApiController->actionIndex()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#4 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (26)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 11:15:39 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\components\JsonApiController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (26)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 11:15:49 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\components\JsonApiController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (26)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 11:16:19 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\components\JsonApiController.php:26)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (26)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 11:16:42 [error] [php] Undefined variable: data (C:\wamp\www\yiiang\protected\components\JsonApiController.php:27)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (27)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 11:38:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/co...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 11:39:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/co...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 18:00:17 [error] [exception.CException] exception 'CException' with message 'Filter "CHttpCacheFilter" is invalid. Controller "JsonApiController" does not have the filter method "filterCHttpCacheFilter".' in C:\wamp\www\yii\framework\web\filters\CInlineFilter.php:47
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(70): CInlineFilter::create(Object(JsonApiController), 'CHttpCacheFilte...')
+#1 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain::create(Object(JsonApiController), Object(CInlineAction), Array)
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('index')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/index')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 18:01:19 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:01:55 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:04:34 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:04:41 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:04:42 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:16:45 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:29:13 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:29:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/app/partia...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/site/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/site/login
+---
+2012/11/09 18:31:33 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 18:32:29 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts/1
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 19:07:36 [error] [php] include(CHttpCacheFilter.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yii\framework\YiiBase.php(198): import()
+#1 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(90): createComponent()
+#2 C:\wamp\www\yii\framework\web\CController.php(292): create()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts/1
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 19:09:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 19:09:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 19:10:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 19:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "craete".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('craete')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('craete')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/craete')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/craete
+---
+2012/11/09 19:20:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/app/pa...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/contacts/craete
+---
+2012/11/09 20:14:26 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (86)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 20:16:17 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (86)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 20:19:59 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('update')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/update')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:20:36 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('update')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/update')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:21:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:22:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:23:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/contactId".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/co...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/contactId
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:23:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:24:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:27:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:29:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:31:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:32:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:40:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:42:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:47:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:49:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:51:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:51:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:52:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:53:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:55:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:55:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:56:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:56:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:58:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 20:58:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:01:06 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:01:17 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:02:28 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:02:38 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:03:14 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHE","email":"cherif_bouchelaghem@imaginepartners_com","notes":"qjkhdjkqsdhqjks"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:03:56 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:04:17 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:05:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:05:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:06:37 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:09:07 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:09:19 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:11:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:14:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:26:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:27:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:28:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 21:29:47 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"qjkhdjkqsdhqjks"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:29:57 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:30:38 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:31:27 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:32:13 [error] [php] Undefined index: notes (C:\wamp\www\yiiang\protected\components\JsonApiController.php:101)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\yii\framework\web\CController.php(287): JsonApiController->runAction()
+#3 C:\wamp\www\yii\framework\web\CController.php(266): JsonApiController->runActionWithFilters()
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(276): JsonApiController->run()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#6 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/api/contacts/1
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (101)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:32:36 [warning] [application] Failed to set unsafe attribute "{"id":"1","first_name":"Mohamed_Cherif","last_name":"BOUCHELAGHEM","email":"cherif_bouchelaghem@imaginepartners_com","notes":"edited"}" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 21:33:41 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:04:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/
+---
+2012/11/09 22:04:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/api/
+---
+2012/11/09 22:04:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/list.html
+---
+2012/11/09 22:04:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/api/app/partials/contact/list.html
+---
+2012/11/09 22:04:53 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:05:56 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:11:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:13:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=2
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:13:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:14:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:15:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?id=1
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?ContactId=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?ContactId=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:20:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?0=5
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?ContactId=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:21:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts?ContactId=6
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/09 22:31:47 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:32:02 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:35:54 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 22:35:59 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)

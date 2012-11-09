@@ -1,7 +1,20 @@
 angular.module('yiiAngServices',['ngResource']).
 	factory('Contact',function($resource){
-		return $resource('api/contacts/:contactId',{},{});
-	})
+		var Contact = $resource('api/contacts/:contactId',{contactId: '@id'},{
+			 query: {method:'GET', isArray:false},
+             update: { method: 'PUT'}
+		});
+
+        Contact.prototype.update = function(cb) {
+            return Contact.update({contactId: this.id},
+                angular.extend({}, this, {contactId:undefined}), cb);
+            };
+
+      
+
+        return Contact;
+
+	});
 	
 	angular.module('SharedServices', [])
     .config(function ($httpProvider) {

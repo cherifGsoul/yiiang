@@ -1,12 +1,14 @@
 <hr/>
 <div class="row">
-	<div class="span12">
+	
 		<div class="span6"><h1>List</h1></div>
-		<div class="span6"><input ng-model="search" name="search" type="text" placeholder="Recherche" class="input-medium search-query"/></div>
-	</div>
+		<div class="span5 offset1"><input ng-model="search" name="search" type="text" placeholder="Recherche" class="input-medium search-query"/></div>
+	
 </div>
 <hr/>
 
+<a href="#/contacts/create" class="btn">Create</a>
+{{contacts.itemCount}}
 <table class="table table-bordered">
 	<tr>
 		<th>First name</th>
@@ -14,13 +16,18 @@
 		<th>Email</th>
 		<th>Actions</th>
 	</tr>
-	<tr ng-repeat="contact in contacts | filter:search">
+	
+	<tr ng-repeat="contact in contacts.data | filter:search">
 		<td>{{contact.first_name}}</td>
 		<td>{{contact.last_name}}</td>
 		<td>{{contact.email}}</td>
 		<td><a href="#/contacts/show/{{contact.id}}" class="btn">Show</a>
-		<a href="#" class="btn">Edit</a>
-		<a href="#" class="btn">Delete</a>
+		<a href="#/contacts/edit/{{contact.id}}" class="btn">Edit</a>
+		<a href="#" ng-click="destroy(contact.id)" class="btn btn-danger">Delete</a>
 		</td>
 	</tr>
 </table>
+<hr/>
+<pre>
+{{contacts.data}}
+</pre>

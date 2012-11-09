@@ -1,0 +1,9 @@
+<form method="post">
+	first name: <input type="text" ng-model="contact.first_name" name="contact[first_name]" required/><br />
+	last name: <input type="text" ng-model="contact.last_name" name="contact[last_name]" required/><br />
+	email: <input type="email" ng-model="contact.email" name="contact[email]" required/><br />
+	note: <textarea ng-model="contact.notes" name="contact[notes]"></textarea><br />
+	<button ng:click="save()">Save</button>
+</form>
+
+{{contact}}
