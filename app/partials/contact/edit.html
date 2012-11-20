@@ -1,9 +1,35 @@
-<form method="post">
-	first name: <input type="text" ng-model="contact.first_name" name="contact[first_name]" required/><br />
-	last name: <input type="text" ng-model="contact.last_name" name="contact[last_name]" required/><br />
-	email: <input type="email" ng-model="contact.email" name="contact[email]" required/><br />
-	note: <textarea ng-model="contact.notes" name="contact[notes]"></textarea><br />
-	<button ng:click="save()">Save</button>
+<form method="post" class="form-horizontal" name="myForm">
+	<div class="control-group">
+	<label class="control-label">first name:</label> 
+	<div class="controls">
+		<input type="text" ng-model="contact.first_name" name="contact[first_name]" required/>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label">last name:</label> 
+	<div class="controls">
+		<input type="text" ng-model="contact.last_name" name="contact[last_name]" required/>
+	</div>
+</div>
+<div class="control-group">
+	<label class="control-label">email: </label>
+	<div class="controls">
+		<input type="email" ng-model="contact.email" name="contact[email]" required/>
+	</div>
+</div>
+<div  class="control-group">
+	<label class="control-label">note:</label> 
+	<div class="controls">
+		<textarea ng-model="contact.notes" name="contact[notes]"></textarea>
+	</div>
+	<button type="submit"  ng-disabled="isClean() || myForm.$invalid" ng:click="save()" class="btn">Save</button>
+	<a href="#/" class="btn">Cancel</a>
+ </div>
+	
 </form>
 
+<hr/>
+<pre>
 {{contact}}
+
+</pre>

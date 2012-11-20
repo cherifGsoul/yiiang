@@ -31,6 +31,7 @@
 			<div>
 				<ul class="nav">
 					<li><a href="#/contacts">Contacts</a></li>
+					<li><a href="#/users">Users</a></li>
 				</ul>
 			</div>
 		</div>

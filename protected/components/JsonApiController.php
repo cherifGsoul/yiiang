@@ -13,20 +13,20 @@
 		}
 
 		/**
-	 * @return array action filters
-	 */
-	public function filters()
-	{
-		return array(
-			//'accessControl', // perform access control for CRUD operations
-			
-			/*array(
-			        'CHttpCacheFilter + show',
-			 	    'cacheControl'=>'',
-			 	    'etagSeed'=>'02aAMdodsd'
-		 	    )*/
-			);
-	}
+		 * @return array action filters
+		 */
+		public function filters()
+		{
+			return array(
+				//'accessControl', // perform access control for CRUD operations
+				
+				/*array(
+				        'CHttpCacheFilter + show',
+				 	    'cacheControl'=>'',
+				 	    'etagSeed'=>'02aAMdodsd'
+			 	    )*/
+				);
+		}
 
 	/**
 	 * Specifies the access control rules.
@@ -53,6 +53,7 @@
 		public function actionShow($id)
 		{
 			$model=$this->loadModel($id);
+			
 			$this->sendResponse(200,CJSON::encode($model));
 		}
 		

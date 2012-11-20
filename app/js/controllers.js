@@ -4,11 +4,6 @@
 function ContactsListCtrl($scope,Contact,$location){
 	$scope.contacts=Contact.query();
 
-	$scope.edit=function(id){
-		Contact.get({contactId:id},function(contact){
-			$location.path('/edit');
-		});
-	}
 	
 	$scope.destroy=function(id){
 		Contact.remove({contactId:id},function(){
@@ -46,4 +41,9 @@ function ContactsEditCtrl($scope,$location,$routeParams,Contact){
 		});
   	}
 		
+}
+
+
+function UsersListCtrl($scope,User){
+	$scope.users=User.query();
 }

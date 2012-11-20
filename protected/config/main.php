@@ -7,13 +7,17 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'yiiang',
+	'name'=>'Javascript MVC Testing platform',
 	'language'=>'en',
-	'theme'=>'yiiang',
+	//'theme'=>'yiiang',
 	'controllerMap'=>array(
 		'contacts'=>array(
 			'class'=>'application.components.JsonApiController',
 			'modelName'=>'Contact'
+		),
+		'users'=>array(
+			'class'=>'application.components.JsonApiController',
+			'modelName'=>'User',
 		)
 	),
 
@@ -49,12 +53,13 @@ return array(
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
+
 			'rules'=>array(
-				array('contacts/index','pattern'=>'api/contacts','verb'=>'GET'),
-				array('contacts/show','pattern'=>'api/contacts/<id\d+>','verb'=>'GET'),
-				array('contacts/create','pattern'=>'api/contacts','verb'=>'POST'),
-				array('contacts/update','pattern'=>'api/contacts/<id\d+>','verb'=>'PUT'),
-				array('contacts/delete','pattern'=>'api/contacts/<id\d+>','verb'=>'DELETE'),
+				array('<controller>/index','pattern'=>'api/<controller>','verb'=>'GET','urlSuffix'=>'.json'),
+				array('<controller>/show','pattern'=>'api/<controller>/<id\d+>','verb'=>'GET','urlSuffix'=>'.json'),
+				array('<controller>/create','pattern'=>'api/<controller>','verb'=>'POST'),
+				array('<controller>/update','pattern'=>'api/<controller>/<id\d+>','verb'=>'PUT'),
+				array('<controller>/delete','pattern'=>'api/<controller>/<id\d+>','verb'=>'DELETE'),
 
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
@@ -87,11 +92,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+				
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
+				
 			),
 		),
 	),

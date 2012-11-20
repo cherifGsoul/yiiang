@@ -1,0 +1,33 @@
+<hr/> 
+<div class="row">
+	
+		<div class="span6"><h1>List</h1></div>
+		<div class="span5 offset1"><input ng-model="search" name="search" type="text" placeholder="Recherche" class="input-medium search-query"/></div>
+	
+</div>
+<hr/>
+
+<a href="#/users/create" class="btn">Create</a>
+{{contacts.itemCount}}
+<table class="table table-bordered">
+	<tr>
+		<th>Username</th>
+		<th>Password</th>
+		<th>Create date</th>
+		<th>Actions</th>
+	</tr>
+	
+	<tr ng-repeat="user in users.data | filter:search">
+		<td>{{user.username}}</td>
+		<td>{{user.password}}</td>
+		<td>{{user.create_time}}</td>
+		<td><a href="#/users/show/{{user.id}}" class="btn">Show</a>
+		<a href="#/users/edit/{{user.id}}" class="btn">Edit</a>
+		<a href="#" ng-click="destroy(user.id)" class="btn btn-danger">Delete</a>
+		</td>
+	</tr>
+</table>
+<hr/>
+<pre>
+{{users.data}}
+</pre>

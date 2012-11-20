@@ -100,4 +100,19 @@ class SiteController extends Controller
 		Yii::app()->user->logout();
 		$this->redirect(Yii::app()->homeUrl);
 	}
+
+	/*public function actionTest($modelName){
+		
+		var_dump(CActiveRecord::model($modelName)->options);
+		//var_dump($con);
+		echo CJSON::encode(CActiveRecord::model($modelName)->options);
+	}*/
+
+	public function actionTest(){
+		$contacts=Contact::model()->list;
+		$data=CHtml::listData($contacts->data,'id','fname');
+
+		//var_dump($contacts);
+		echo CJSON::encode(array('data'=>$data));
+	}
 }

@@ -14,7 +14,19 @@ angular.module('yiiAngServices',['ngResource']).
 
         return Contact;
 
-	});
+	}).
+    factory('User',function($resource){
+        var User = $resource('api/users/:userId',{userId: '@id'},{
+             query: {method:'GET', isArray:false},
+             update: { method: 'PUT'}
+        });
+
+      
+
+        return User;
+
+    })
+    
 	
 	angular.module('SharedServices', [])
     .config(function ($httpProvider) {

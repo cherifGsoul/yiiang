@@ -1,6 +1,6 @@
 <?php
 
-class ContactController extends Controller
+class UserController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -44,15 +44,6 @@ class ContactController extends Controller
 		);
 	}
 
-	public function actions(){
-  		 return array(
-      		'index'=>array(
-      			'class'=>'application.controllers.IndexAction',
-      			'modelName'=>'Contact',
-      		),
-  	 	);
-	}
-
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -70,14 +61,14 @@ class ContactController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Contact;
+		$model=new User;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Contact']))
+		if(isset($_POST['User']))
 		{
-			$model->attributes=$_POST['Contact'];
+			$model->attributes=$_POST['User'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -99,9 +90,9 @@ class ContactController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Contact']))
+		if(isset($_POST['User']))
 		{
-			$model->attributes=$_POST['Contact'];
+			$model->attributes=$_POST['User'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -134,23 +125,23 @@ class ContactController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	/*public function actionIndex()
+	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Contact');
+		$dataProvider=new CActiveDataProvider('User');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
-	}*/
+	}
 
 	/**
 	 * Manages all models.
 	 */
 	public function actionAdmin()
 	{
-		$model=new Contact('search');
+		$model=new User('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Contact']))
-			$model->attributes=$_GET['Contact'];
+		if(isset($_GET['User']))
+			$model->attributes=$_GET['User'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -164,7 +155,7 @@ class ContactController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Contact::model()->findByPk($id);
+		$model=User::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -176,7 +167,7 @@ class ContactController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='contact-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='user-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

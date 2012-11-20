@@ -1,21 +1,21 @@
 <?php
 
 /**
- * This is the model class for table "contact".
+ * This is the model class for table "user".
  *
- * The followings are the available columns in table 'contact':
+ * The followings are the available columns in table 'user':
  * @property integer $id
- * @property string $first_name
- * @property string $last_name
- * @property string $email
- * @property string $notes
+ * @property string $username
+ * @property string $password
+ * @property string $create_time
+ * @property string $update_time
  */
-class Contact extends CActiveRecord
+class User extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return Contact the static model class
+	 * @return User the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -27,7 +27,7 @@ class Contact extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'contact';
+		return 'user';
 	}
 
 	/**
@@ -38,14 +38,13 @@ class Contact extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name,last_name,email','required'),
-			array('email','email'),
-			array('first_name', 'length', 'max'=>20),
-			array('last_name, email', 'length', 'max'=>45),
-			array('notes', 'safe'),
+			array('username, password', 'required'),
+			array('username', 'length', 'max'=>128),
+			array('password', 'length', 'max'=>45),
+			array('create_time, update_time', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, last_name, email, notes', 'safe', 'on'=>'search'),
+			array('id, username, password, create_time, update_time', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -67,10 +66,10 @@ class Contact extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'first_name' => 'First Name',
-			'last_name' => 'Last Name',
-			'email' => 'Email',
-			'notes' => 'Notes',
+			'username' => 'Username',
+			'password' => 'Password',
+			'create_time' => 'Create Time',
+			'update_time' => 'Update Time',
 		);
 	}
 
@@ -86,30 +85,13 @@ class Contact extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
-		$criteria->compare('first_name',$this->first_name,true);
-		$criteria->compare('last_name',$this->last_name,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('notes',$this->notes,true);
+		$criteria->compare('username',$this->username,true);
+		$criteria->compare('password',$this->password,true);
+		$criteria->compare('create_time',$this->create_time,true);
+		$criteria->compare('update_time',$this->update_time,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
-	}
-
-	public function getOptions(){
-		$contacts = Yii::app()->db->createCommand()
-				    ->select('id, first_name as fname')
-				    ->from('contact')
-				    ->order('id DESC')
-				    ->queryAll();
-
-		return $contacts;
-	}
-
-	public function getList(){
-		$sql='SELECT id, first_name as fname, email as em FROM '.$this->tableName();
-
-		$dataProvider=new CSqlDataProvider($sql);
-		return $dataProvider;
 	}
 }

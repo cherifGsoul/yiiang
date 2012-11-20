@@ -1319,3 +1319,879 @@ in C:\wamp\www\yiiang\index.php (13)
 2012/11/09 22:58:20 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
 in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
 in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 23:11:42 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/09 23:14:09 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/10 09:07:33 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/10 09:10:13 [warning] [application] Failed to set unsafe attribute "id" of "Contact".
+in C:\wamp\www\yiiang\protected\components\JsonApiController.php (103)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/11 19:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "view".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('view')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('view')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/view')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/1
+---
+2012/11/11 19:00:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/app/pa...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/contacts/1
+---
+2012/11/11 19:21:55 [error] [exception.CException] exception 'CException' with message 'CClientScript and its behaviors do not have a method or closure named "registerFileScript".' in C:\wamp\www\yii\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\yiiang\themes\yiiem\views\layouts\main.php(17): CComponent->__call('registerFileScr...', Array)
+#1 C:\wamp\www\yiiang\themes\yiiem\views\layouts\main.php(17): CClientScript->registerFileScript('/yiiang/emyii/s...')
+#2 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#3 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#4 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(77): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#5 C:\wamp\www\yii\framework\web\widgets\CContentDecorator.php(55): CContentDecorator->decorate('<div id="conten...')
+#6 C:\wamp\www\yii\framework\web\widgets\COutputProcessor.php(45): CContentDecorator->processOutput('<div id="conten...')
+#7 C:\wamp\www\yii\framework\web\CBaseController.php(207): COutputProcessor->run()
+#8 C:\wamp\www\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#9 C:\wamp\www\yiiang\protected\views\layouts\column1.php(5): CBaseController->endContent()
+#10 C:\wamp\www\yii\framework\web\CBaseController.php(127): require('C:\wamp\www\yii...')
+#11 C:\wamp\www\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\yii...', Array, true)
+#12 C:\wamp\www\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\wamp\www\yii...', Array, true)
+#13 C:\wamp\www\yiiang\protected\controllers\SiteController.php(32): CController->render('index')
+#14 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#15 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#16 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#17 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('')
+#19 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('')
+#20 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/yiiang/
+---
+2012/11/11 19:22:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/libs/handlebars.1.0.rc.1.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/l...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/libs/handlebars.1.0.rc.1.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/routes/app-router.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/r...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/routes/app-router.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/main.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/main.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/controllers/application-controller.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/c...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/controllers/application-controller.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/views/application-view.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/v...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/views/application-view.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/routes/app-router.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/r...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/routes/app-router.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/views/application-view.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/v...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/views/application-view.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:30:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/controllers/application-controller.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/c...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/controllers/application-controller.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:39:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:39:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:41:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:41:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 19:41:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 20:38:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/templates/application".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/t...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang//emyii/scripts/templates/application
+---
+2012/11/11 20:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/views/application-view.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/v...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/views/application-view.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:17:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:17:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/models/application-model.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/m...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/models/application-model.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 21:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "emyii/scripts/store.js".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('emyii/scripts/s...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/emyii/scripts/store.js
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 22:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/users
+---
+2012/11/11 22:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/api/users
+---
+2012/11/11 22:45:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/users
+---
+2012/11/11 22:45:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/api/users
+---
+2012/11/11 22:45:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 22:45:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 22:47:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 22:48:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "<controller:\w+>/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('<controller:\w+...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 22:52:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/user".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/user')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/user
+HTTP_REFERER=http://localhost/yiiang/api/user
+---
+2012/11/11 23:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/.json".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/.j...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/.json
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 23:13:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/.json
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 23:13:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/.json".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/.j...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/.json
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 23:15:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/.json".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/.j...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/.json
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 23:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/contacts/.json".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/contacts/.j...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts/.json?contactsId=contacts
+HTTP_REFERER=http://localhost/yiiang/
+---
+2012/11/11 23:20:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/id')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/id/1
+---
+2012/11/11 23:20:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "id".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('id')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('id')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts/id/app...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contacts/id/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/contacts/id/1
+---
+2012/11/11 23:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "contacts.json/index".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contacts.json/i...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/contacts.json
+---
+2012/11/11 23:21:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "api/app/partials/contact/list.html".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('api/app/partial...')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/api/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/api/contacts.json
+---
+2012/11/12 09:32:19 [error] [php] Use of undefined constant contacts - assumed 'contacts' (C:\wamp\www\yiiang\protected\controllers\SiteController.php:106)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (106)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 09:34:24 [error] [php] Undefined variable: contacts (C:\wamp\www\yiiang\protected\controllers\SiteController.php:107)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (107)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 09:34:36 [error] [php] Trying to get property of non-object (C:\wamp\www\yiiang\protected\controllers\SiteController.php:109)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (109)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 09:40:15 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'. The SQL statement executed was: SELECT first_name.
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (106)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 09:40:15 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'. The SQL statement executed was: SELECT first_name' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1517): CDbCommand->queryAll()
+#2 C:\wamp\www\yiiang\protected\controllers\SiteController.php(106): CActiveRecord->findAllBySql('SELECT first_na...')
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/12 09:41:03 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'. The SQL statement executed was: SELECT first_name.
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (106)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 09:41:03 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'first_name' in 'field list'. The SQL statement executed was: SELECT first_name' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(1517): CDbCommand->queryAll()
+#2 C:\wamp\www\yiiang\protected\controllers\SiteController.php(106): CActiveRecord->findAllBySql('SELECT first_na...')
+#3 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#4 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/12 09:48:08 [error] [php] include(CJON.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\controllers\SiteController.php(106): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (106)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 10:11:50 [error] [php] Use of undefined constant contacts - assumed 'contacts' (C:\wamp\www\yiiang\protected\models\Contact.php:105)
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\controllers\SiteController.php(106): Contact->__get()
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#3 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#4 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\models\Contact.php (105)
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (106)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 10:16:07 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/12 10:16:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/app/partia...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/site/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/site/test
+---
+2012/11/12 10:16:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/site/test?modelname=Contact$
+---
+2012/11/12 10:16:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/app/partia...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/site/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/site/test?modelname=Contact$
+---
+2012/11/12 10:16:25 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/site/test?modelname=Contact
+---
+2012/11/12 10:16:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "app".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('app')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('app')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/app/partia...')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/site/app/partials/contact/list.html
+HTTP_REFERER=http://localhost/yiiang/site/test?modelname=Contact
+---
+2012/11/12 10:16:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#4 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#5 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/yiiang/site/test?modelname=Contact
+---
+2012/11/12 10:16:58 [error] [exception.CException] exception 'CException' with message 'Property "User.options" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(144): CComponent->__get('options')
+#1 C:\wamp\www\yiiang\protected\controllers\SiteController.php(106): CActiveRecord->__get('options')
+#2 [internal function]: SiteController->actionTest('User')
+#3 C:\wamp\www\yii\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yiiang/site/test?modelName=User
+---
+2012/11/12 22:23:44 [error] [php] include(SqlDataProvider.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory (C:\wamp\www\yii\framework\YiiBase.php:418)
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\models\Contact.php(111): spl_autoload_call()
+#1 C:\wamp\www\yii\framework\base\CComponent.php(112): Contact->getList()
+#2 C:\wamp\www\yii\framework\db\ar\CActiveRecord.php(144): Contact->__get()
+#3 C:\wamp\www\yiiang\protected\controllers\SiteController.php(112): Contact->__get()
+#4 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#5 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#6 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#7 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#10 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\models\Contact.php (111)
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (112)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 22:24:21 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10' at line 1. The SQL statement executed was: SELECT first_name as fname, email as em FROM LIMIT 10.
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (113)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 22:24:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 10' at line 1. The SQL statement executed was: SELECT first_name as fname, email as em FROM LIMIT 10' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\web\CSqlDataProvider.php(105): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\web\CDataProvider.php(137): CSqlDataProvider->fetchData()
+#3 C:\wamp\www\yii\framework\base\CComponent.php(112): CDataProvider->getData()
+#4 C:\wamp\www\yiiang\protected\controllers\SiteController.php(113): CComponent->__get('data')
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/12 22:25:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMcontact LIMIT 10' at line 1. The SQL statement executed was: SELECT first_name as fname, email as em FROMcontact LIMIT 10.
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (113)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 22:25:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROMcontact LIMIT 10' at line 1. The SQL statement executed was: SELECT first_name as fname, email as em FROMcontact LIMIT 10' in C:\wamp\www\yii\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\yii\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\yii\framework\web\CSqlDataProvider.php(105): CDbCommand->queryAll()
+#2 C:\wamp\www\yii\framework\web\CDataProvider.php(137): CSqlDataProvider->fetchData()
+#3 C:\wamp\www\yii\framework\base\CComponent.php(112): CDataProvider->getData()
+#4 C:\wamp\www\yiiang\protected\controllers\SiteController.php(113): CComponent->__get('data')
+#5 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#6 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#7 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#8 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#10 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#11 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/12 23:08:29 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\controllers\IndexAction.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): ContactController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): ContactController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): ContactController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ContactController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contact/index
+in C:\wamp\www\yiiang\protected\controllers\IndexAction.php (28)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 23:08:50 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\controllers\IndexAction.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): ContactController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): ContactController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): ContactController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ContactController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contact/index
+in C:\wamp\www\yiiang\protected\controllers\IndexAction.php (28)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 23:09:03 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\controllers\IndexAction.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): ContactController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): ContactController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): ContactController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ContactController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contact/index
+in C:\wamp\www\yiiang\protected\controllers\IndexAction.php (28)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/12 23:09:06 [error] [php] Undefined variable: modelName (C:\wamp\www\yiiang\protected\controllers\IndexAction.php:28)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(134): ContactController->runAction()
+#1 C:\wamp\www\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\yii\framework\web\filters\CInlineFilter.php(59): ContactController->filterAccessControl()
+#4 C:\wamp\www\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\yii\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\yii\framework\web\CController.php(266): ContactController->runActionWithFilters()
+#7 C:\wamp\www\yii\framework\web\CWebApplication.php(276): ContactController->run()
+#8 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#9 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/contact/index
+in C:\wamp\www\yiiang\protected\controllers\IndexAction.php (28)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/13 08:06:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "test".' in C:\wamp\www\yii\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(271): CController->missingAction('test')
+#1 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('contact/test')
+#3 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yiiang/contact/test
+---
+2012/11/13 08:06:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "test".' in C:\wamp\www\yii\framework\web\CWebApplication.php:280
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('test')
+#1 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yiiang/test
+---
+2012/11/13 08:07:01 [error] [php] Use of undefined constant contacts - assumed 'contacts' (C:\wamp\www\yiiang\protected\controllers\SiteController.php:114)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (114)
+in C:\wamp\www\yiiang\index.php (13)
+2012/11/13 08:07:28 [error] [exception.CException] exception 'CException' with message 'Property "CSqlDataProvider.offset" is not defined.' in C:\wamp\www\yii\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\yiiang\protected\controllers\SiteController.php(115): CComponent->__get('offset')
+#1 C:\wamp\www\yii\framework\web\actions\CInlineAction.php(50): SiteController->actionTest()
+#2 C:\wamp\www\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#3 C:\wamp\www\yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#4 C:\wamp\www\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 C:\wamp\www\yii\framework\web\CWebApplication.php(276): CController->run('test')
+#6 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController('site/test')
+#7 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#8 C:\wamp\www\yiiang\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/yiiang/site/test
+---
+2012/11/13 08:26:15 [error] [php] Undefined variable: listData (C:\wamp\www\yiiang\protected\controllers\SiteController.php:116)
+Stack trace:
+#0 C:\wamp\www\yii\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\yii\framework\web\CWebApplication.php(276): SiteController->run()
+#3 C:\wamp\www\yii\framework\web\CWebApplication.php(135): CWebApplication->runController()
+#4 C:\wamp\www\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\yiiang\index.php(13): CWebApplication->run()
+REQUEST_URI=/yiiang/site/test
+in C:\wamp\www\yiiang\protected\controllers\SiteController.php (116)
+in C:\wamp\www\yiiang\index.php (13)
